@@ -2,7 +2,7 @@
 
  Project Overview
 
-This project focuses on predicting house prices using machine learning techniques and data analysis. By analyzing property features such as physical condition, location, and construction details, the model helps developers, agents, and buyers make better decisions.
+This project focuses on analysing house prices using machine learning techniques and data analysis. By analyzing property features such as physical condition, location, and construction details, the model helps developers, agents, and buyers make better decisions.
 
 The workflow includes:
 
@@ -72,6 +72,7 @@ Insights
 •	Larger lot areas and finished basements significantly increase property value.
 •	Overall condition strongly correlates with pricing.
 •	Location (zoning & lot configuration) plays a critical role in valuation.
+ 
  Requirements
 Install dependencies before running the project:
 bash

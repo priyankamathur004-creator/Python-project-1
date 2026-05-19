@@ -1,6 +1,6 @@
-﻿House Price Prediction – Data Analysis using Python
+# ﻿House Price Prediction – Data Analysis using Python
 
- Project Overview
+ # Project Overview
 
 This project focuses on analysing house prices using machine learning techniques and data analysis. By analyzing property features such as physical condition, location, and construction details, the model helps developers, agents, and buyers make better decisions.
 
@@ -11,7 +11,7 @@ The workflow includes:
 •	Feature engineering
 •	Model building & evaluation
 
- Dataset Overview
+ # Dataset Overview
 
 The dataset contains property-related features with the target variable SalePrice.
 
@@ -23,7 +23,7 @@ Key Features:
 •	Condition – OverallCond (1–10 scale)
 •	Target Variable – SalePrice
 
- Methodology
+# Methodology
  
 1. Data Exploration
 
@@ -59,21 +59,21 @@ Key Features:
 •	Renovation Value – YearRemodAdd effect on property value
 •	Categorical Prediction – Tested models using only categorical features
 
- Visualizations
+# Visualizations
 
 •	Histograms for continuous variables
 •	Scatter plots for numerical features vs. SalePrice
 •	Boxplots for outlier detection
 •	Correlation heatmap
 
-Insights
+# Insights
 
 •	Houses with recent renovations tend to have higher SalePrice.
 •	Larger lot areas and finished basements significantly increase property value.
 •	Overall condition strongly correlates with pricing.
 •	Location (zoning & lot configuration) plays a critical role in valuation.
  
- Requirements
+# Requirements
 Install dependencies before running the project:
 bash
 pip install pandas numpy matplotlib seaborn scikit-learn
@@ -84,7 +84,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 bash
 python house_price_prediction.py
 
-Conclusion
+# Conclusion
 
 This project demonstrates how data preprocessing, feature engineering, and machine learning can be applied to predict house prices. The insights derived are valuable for real estate decision-making and highlight the importance of both numerical and categorical features.
 
